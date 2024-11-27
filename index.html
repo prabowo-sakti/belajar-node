@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="output"></div>
-    <script>
-      const outputElement = document.getElementById("output");
-      const message = "Mas sayang Ela";
-      const totalLoops = 100; // Jumlah pengulangan pesan
-      const delay = 500; // Jeda waktu per pesan dalam ms
-
-      function printMessageWithDelay(index) {
-        if (index < totalLoops) {
-          const paragraph = document.createElement("p"); // Buat elemen <p>
-          paragraph.textContent = message;
-          outputElement.appendChild(paragraph); // Tambahkan <p> ke <div>
-
-          // Panggil fungsi ini lagi setelah jeda waktu
-          setTimeout(() => printMessageWithDelay(index + 1), delay);
-        }
-      }
-
-      // Mulai dengan memanggil fungsi pertama kali
-      printMessageWithDelay(0);
-    </script>
-  </body>
-</html>
+<div class="flex flex-col">
+  <img src="/pemandangan,jpg" alt="">
+  <h1>simple omelette recipe</h1>
+</div>
